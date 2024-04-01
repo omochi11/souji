@@ -1,0 +1,96 @@
+body {
+  background: #fff;
+  color: #666;
+  font-family: -apple-system, "Helvetica Neue", "Hiragino Kaku Gothic ProN", "游ゴシック Medium", "メイリオ", meiryo, sans-serif !important;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+#header {
+  height: 56px;
+  padding: 0 0;
+  width: 100%;
+  min-width: 300px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  border-top: 3px solid #3EB3FF;
+  background: #fff;
+
+
+  .headerContainer {
+    width: 1000px;
+    padding: 0;
+    /* margin: 0 auto; */
+    width: 100%;
+}
+.logo{
+
+    .logoArea {
+      width: 60%;
+    }
+
+    .headerInfo {
+      max-width: 40%;
+    }
+  }
+}
+
+bx-wrapper{
+  width: 100%;
+  object-fit: cover;
+}
+.c-filterLayer:after, .c-filterLayer:before, .c-filterLayer__img {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.p-mainVisual__textLayer l-parent l-container u-ta-c {
+  color:#ffffff;text-shadow:1px 1px 0px rgba(0, 0, 0, 0.2 );
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 100%;
+  z-index: 3;
+}
+
+#content {
+  width: 100%;
+  min-width: 300px;
+  margin-top: 59px;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+#mv {
+  margin-bottom: 10px;
+}
+
+#icon {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+
+#icon li {
+  float: left;
+  display: block;
+  width: 25%;
+  text-align: center;
+}
+
+#c1 {
+  padding: 0 5px;
+  margin-bottom: 20px;
+}
